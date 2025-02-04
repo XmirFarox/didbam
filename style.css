@@ -73,7 +73,7 @@ button {
   height: 10vh;
   text-align: center;
   font-size: 1.5rem;
-  font-family: "Refaghat", "wahm";
+  font-family: Refaghat, wahm;
   color: #b3252b;
   white-space: normal; /* تغییر از nowrap به pre-line */
   /* border-right: 2px solid black; */
