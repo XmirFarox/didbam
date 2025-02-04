@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ebd467;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+img {
+  max-width: 100%;
+}
+#countdown {
+  direction: rtl;
+  font-size: 2rem;
+  margin: 20px 0;
+  font-weight: bold;
+  font-family: "MRT_Mokhtar";
+  color: #333;
+}
+.subscribe {
+  margin-top: 20px;
+}
+input[type="email"] {
+  padding: 10px;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #d9534f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.social {
+  margin-top: 20px;
+}
+.social a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.animated-text {
+  direction: rtl;
+  /* width: 390px; */
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "A Refaghat", monospace;
+  white-space: normal; /* تغییر از nowrap به pre-line */
+  /* border-right: 2px solid black; */
+  /* padding-right: 20px; */
+}
