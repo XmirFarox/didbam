@@ -22,7 +22,7 @@ img {
   color: #333;
 }
 .subscribe {
-  margin-top: 20px;
+  margin-top: 8vh;
 }
 input[type="email"] {
   padding: 10px;
@@ -48,10 +48,11 @@ button {
 }
 .animated-text {
   direction: rtl;
-  /* width: 390px; */
+  height: 10vh;
   text-align: right;
   font-size: 1.5rem;
   font-family: "A Refaghat", monospace;
+  color: #b3252b;
   white-space: normal; /* تغییر از nowrap به pre-line */
   /* border-right: 2px solid black; */
   /* padding-right: 20px; */
