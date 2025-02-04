@@ -1,3 +1,22 @@
+/* تعریف فونت MRT_Mokhtar */
+@font-face {
+  font-family: "MRT_Mokhtar";
+  src: url("mj_mokhtar-webfont.woff2") format("woff2"),
+    url("mj_mokhtar-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* تعریف فونت MM_Wahm_Farsi */
+@font-face {
+  font-family: "Refaghat";
+  src: url("refaghat-webfont.woff2") format("woff2"),
+    url("refaghat-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 body {
   font-family: Arial, sans-serif;
   background: #ebd467;
@@ -49,9 +68,9 @@ button {
 .animated-text {
   direction: rtl;
   height: 10vh;
-  text-align: right;
+  text-align: center;
   font-size: 1.5rem;
-  font-family: "A Refaghat", monospace;
+  font-family: "Refaghat", monospace;
   color: #b3252b;
   white-space: normal; /* تغییر از nowrap به pre-line */
   /* border-right: 2px solid black; */
